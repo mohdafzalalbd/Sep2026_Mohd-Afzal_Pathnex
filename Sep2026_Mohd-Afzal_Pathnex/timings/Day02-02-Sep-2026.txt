@@ -1,0 +1,7 @@
+﻿# What I did today
+
+1 hour - Learned Linux fundamentals for DevOps and understood the role of Linux in a DevOps environment
+30 mins - Practiced basic Linux commands and hands-on exercises
+1 hour - English speaking / watching movies
+2 hours - Practiced 2 sets of Linux and DevOps-related questions
+
