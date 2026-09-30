@@ -1,0 +1,23 @@
+
+# Ansible task to install Nginx all the pathnex servers
+
+-name: Install Nginx on pathnex server #Just to get idea what is actually for.
+ hosts: all                            #It say's run on all the machine which is under it.
+ become: yes                           #It say's run with required permission. 
+
+ tasks:                                #It means what the task is going to execute & run
+   - name: Install nginx               #It just for human understandig
+     yum:                              #The package manager we are going to use to fetch the package.
+       name: nginx                     #The required package 
+       state: present                  #The the final state should be installed.
+
+
+# Docker
+
+docker --version                                   #to check the docker version & verify the installation too.
+docker run -d ubuntu echo "Hello Pathnex"          #Create & run the container
+
+
+From ubuntu:22.04                                  #To choose the base image 
+CMD ["echoo", "Hello Pathnex"]                     #To execute commands when the containers runs. 
+

@@ -1,5 +1,6 @@
 # What I did today
-an hour - Revised Datadog
+1 hour - Revised HelmChart
 30 mins coding
 1 hours English speaking/watching movies
-2 hours - 2 set question
+
+
